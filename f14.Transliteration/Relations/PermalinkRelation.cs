@@ -4,8 +4,14 @@ using System.Text;
 
 namespace f14.Transliteration.Relations
 {
+    /// <summary>
+    /// The translite relation object for permalinks.
+    /// </summary>
     public class PermalinkRelation : IRelation
     {
+        /// <summary>
+        /// The relation map.
+        /// </summary>
         protected Dictionary<string, string> _relation = new Dictionary<string, string>
         {
             // Special
@@ -86,7 +92,9 @@ namespace f14.Transliteration.Relations
             { "я", "ya" },
             { "Я", "YA" },
         };
-
+        /// <summary>
+        /// The relation table.
+        /// </summary>
         public IDictionary<string, string> Table => _relation;
     }
 }
