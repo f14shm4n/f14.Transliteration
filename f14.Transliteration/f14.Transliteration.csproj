@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <Authors>f14shm4n</Authors>
+    <Company>f14shm4n</Company>
+    <Description>The string transliteration tool.</Description>
+    <Copyright>f14shm4n</Copyright>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/f14shm4n/f14.CommonCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/f14shm4n/f14.CommonCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>NetStandard;Transliteration;String;Convert</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='x86|AnyCPU'" />
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" />
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" />
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='x86|x86'" />
+
+</Project>
